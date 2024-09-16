@@ -14,7 +14,7 @@ header .container{
     gap: 32px;
 }
 #profile > div{
-    max-width: 384px;
+    max-width: 440px;
 }
 
 #profile h1{
