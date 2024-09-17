@@ -14,7 +14,7 @@ header .container{
     gap: 32px;
 }
 #profile > div{
-    max-width: 384px;
+    max-width: 450px;
 }
 
 #profile img{
@@ -39,7 +39,7 @@ header .container{
     width: 280px;
 }
 
-#info{
+#info li{
 
     display: flex;
     align-items: center;
