@@ -1,12 +1,11 @@
 header{
-    padding-block: 32px;
-
+    padding-block: 32px;     /* Adiciona padding (espaçamento) de 32px na parte superior e inferior do header */
     font: var(--text-md);
 }
 
 header .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;    /* Justifica o conteúdo para que fique espaçado igualmente entre os elementos */
     align-items: center;
 }
 #profile{
@@ -14,13 +13,13 @@ header .container{
     gap: 32px;
 }
 #profile > div{
-    max-width: 450px;
+    max-width: 450px;   /* Define a largura máxima do elemento como 450px */
 }
 
 #profile img{
     width: 176px;
     height: 176px;
-    object-fit: cover;
+    object-fit: cover;    /* Faz com que a imagem seja redimensionada para se encaixar no espaço disponível */
     border-radius: 50%;
 }
 
@@ -31,10 +30,10 @@ header .container{
 }
 
 #info{
-    list-style: none;
+    list-style: none;    /* Remove a formatação de lista (pontos, números, etc.) */
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    /* Define a direção do flex como coluna */
     gap: 16px;
     width: 280px;
 }
